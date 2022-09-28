@@ -7,7 +7,7 @@
     position: absolute;
     z-index: 500;
     width: 100%;
-    
+    overflow-y: hidden;
 }
 .body-loader{
     display: flex;
