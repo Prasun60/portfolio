@@ -3,8 +3,6 @@
     margin: 0;
     padding: 0;
     font-family: consolas;
-    overflow-y:hidden;
-    overflow-x:hidden;
     background-color: #000;
     position: absolute;
     z-index: 500;
@@ -20,6 +18,7 @@
     background-image: url("https://steamuserimages-a.akamaihd.net/ugc/951857668148675039/DEE6B85887DB25E1C531CC813CE37D2231936DD8/?imw=116&imh=65&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true");
     background-repeat: no-repeat;
     background-size: 100%;
+    overflow-y: hidden;
 }
 .h2-loader{
     color: #000;

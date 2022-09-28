@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import Loader from "./components/Loader.js"
 import Intro from "./components/Intro.js"
 import StarfieldAnimation from "react-starfield-animation";
@@ -10,14 +10,14 @@ import Contact from "./components/Contatct.js"
 import Navbar from "./components/Navbar.js" 
 
 function App() {
+  
   const [loading, SetLoading] = useState(false);
-
   useEffect(() => {
     SetLoading(true);
     setTimeout(() => {
-        SetLoading(false);
-    }, 3000)
-}, [])
+      SetLoading(false);
+    }, 1500)
+  }, [])
   return (
     <>
     
@@ -32,7 +32,8 @@ function App() {
 
     </>
 
-  );
+);
 }
 
 export default App;
+
