@@ -6,10 +6,14 @@
     font-family: imp;
     src: url(../source-sans-pro/SourceSansPro-BlackItalic.ttf);
 }
+@font-face {
+    font-family: impp;
+    src: url(../source-sans-pro/SourceSansPro-Italic.ttf);
+}
 
 
 div.intro{
-    background-color: black;
+    background-color: transparent;
     position:absolute;
     top: 0;
     bottom: 0;
@@ -17,6 +21,10 @@ div.intro{
     right: 0;
     height: 100%;
     z-index: -10;
+    /* background-image: url("https://steamuserimages-a.akamaihd.net/ugc/951857668148675039/DEE6B85887DB25E1C531CC813CE37D2231936DD8/?imw=116&imh=65&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true");
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    z-index: 100;
 }
 .container
 {
@@ -136,7 +144,7 @@ h4{
 }
 
 .about{
-    color: white;
+    color: #6bdcfe;
     box-align: center;
     margin-top: 280px;
     margin-left: 500px;
@@ -153,10 +161,13 @@ h4{
     padding: 20px;
     align-items: center;
     font-size: 20px;
-    font-family: imp;
+    font-family: impp;
 }
 .heading{
     font-size: 40px;
+    color:#6bdcfe;
+    font-family: imp;
+    text-shadow: 0 0 20px #4c84fe;
 }
 .blob2{
     position:relative;
@@ -179,3 +190,6 @@ h4{
         transform: translate(-10px,-100px) rotate(-10deg);
     }
 }
+/* .djfh{
+    color:#db129f;
+} */

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+.navbar{
+    color: white;
+    height: 10px;
+    background-color: black;
+    /* background-image: url("https://steamuserimages-a.akamaihd.net/ugc/951857668148675039/DEE6B85887DB25E1C531CC813CE37D2231936DD8/?imw=116&imh=65&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true");
+    background-repeat: no-repeat;
+    background-size: 100%; */
+}
+.nav-heading{
+    font-family: 'Passions Conflict', cursive;
+    font-size: 2em;
+    color: #6bdcfe;
+    text-shadow: 0 0 20px #4c84fe;
+    width: 500px;
+    margin-top: -10px;
+    margin-left: 25px;
+}
+.nav-heading:hover{
+    animation: animate 3s linear infinite;
+
+}
+.sections{
+    margin-left: 1100px;
+    margin-top: -80px;
+    font-family: 'Montserrat', sans-serif;
+    color:#6bdcfe;
+    text-shadow: 0 0 20px #4c84fe;
+}
+.section-item{
+    padding-left: 35px;
+    color:#6bdcfe;
+    text-shadow: 0 0 20px #4c84fe;
+    
+}
+.section-item:hover{
+    color:#ea50bc;
+    text-shadow: 0 0 20px #c10789;
+    cursor: pointer;
+}

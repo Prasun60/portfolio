@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import "../styles/loader.css"
 import StarfieldAnimation from "react-starfield-animation";
+import zIndex from '@mui/material/styles/zIndex';
 
 
 
@@ -8,17 +9,18 @@ function Loader(loading, SetLoading) {
    
     return (
         <div className='loader'>
-            <StarfieldAnimation
+            {/* <StarfieldAnimation
                 style={{
                     position: "absolute",
                     width: "100%",
-                    height: "100%"
+                    height: "100%",
+                    zIndex:"100"
                 }}
                 numParticles={800}
                 particleSpeed={0}
                 dx={0.000000001} // x speed of stars in px/frame, default 0.05
                 dy={0.000000001}
-            />
+            /> */}
             {
                 loading ?
                     <div className='body-loader'>

@@ -4,12 +4,14 @@
 }
 .skills{
     position: absolute;
-    background-color: black;
+    background-color: transparent;
     bottom: -650px;
     width: 100%;
     height: 1000px;
     z-index: -100;
-    
+    /* background-image: url("https://steamuserimages-a.akamaihd.net/ugc/951857668148675039/DEE6B85887DB25E1C531CC813CE37D2231936DD8/?imw=116&imh=65&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true");
+    background-repeat: no-repeat;
+    background-size: 100%; */
 }
 .ski{
     color:transparent;
@@ -21,12 +23,15 @@
     text-align: center;
     font-family: Imported;
     margin-top: -1200px;
-    background-color: black;
-    right: 150px;
-    z-index: -10;
+    background-color: transparent;
+    right: 159px;
+    z-index: -100;
+    /* background-image: url("https://steamuserimages-a.akamaihd.net/ugc/951857668148675039/DEE6B85887DB25E1C531CC813CE37D2231936DD8/?imw=116&imh=65&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true");
+    background-repeat: no-repeat;
+    background-size: 100%; */
 
 }
-div span{
+.ski span{
     animation: animate 3s linear infinite;
 }
 .modell{
@@ -43,7 +48,103 @@ div span{
     background-color: black;
     color: white;
     margin-top: -750px;
+    margin-left: 140px;
+    padding: 50px;
     position: relative;
-    height: 800px;
+    height: 500px;
     text-align: center;
+    width: 75%;
+    background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    display: flexbox;
+}
+.blob3{
+    position:relative;
+    width: 200px;
+    height: 200px;
+    bottom: 100px;
+    margin-left: 400px;
+    background: linear-gradient(180deg,rgba(47,184,255,0.42) 31.77%,
+    #5c9df1 100%);
+   /* background: linear-gradient(180deg,rgba(47,184,255,0.42) 31.77%,
+   #5c9df1 100%); */
+   border-radius: 100%;
+   filter: blur(30px);
+   animation: bounces 10s infinite alternate;
+}
+@keyframes bounces {
+    from{
+        transform: translate(30px,30px) rotate(-90deg);
+        border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
+
+    }to{
+        transform: translate(200px,100px) rotate(-10deg);
+        border-radius: 76% 24% 33% 67% / 68% 55% 45% 32% ;
+
+    }
+}
+svg {
+    display:inline-block;  
+    padding: 10px;
+    height: 60px;
+    width: 50px;
+}
+
+.skillpic:hover {
+    transform: scale(1.1);
+}
+
+.skillpic:hover .skill_description {
+    opacity: 1;
+}
+
+
+
+.picsection{
+    height: 550px;
+    width: 1000px;
+    position: relative;
+    display: grid;
+    margin-left: 65px;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+}
+.afterlogo{
+    margin-left: 90px;
+    margin-top: -90px;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(180deg,rgba(47,184,255,0.42) 31.77%,
+   #5c9df1 100%);
+   position: absolute;
+   /* background: linear-gradient(180deg,rgba(47,184,255,0.42) 31.77%,
+   #5c9df1 100%); */
+   filter: blur(20px);
+   animation: bouncy 17s infinite alternate;
+   transition: 1s cubic-bezier(0.07,0.8,0.16,1);
+
+
+}
+.afterlogo:hover{
+    width: 250px;
+    height: 250px;
+    filter: blur(26px);
+    box-shadow: inset 0 0 0 5px rgba(255,255,255,0.6),
+    inset 50px 50px 0 0px #a90578,
+    inset 100px 100px 0 0px #784ba8,
+    inset 200px 200px 0 0px #2b86c5;
+}
+@keyframes bouncy {
+    from{
+        transform: translate(-20px,-100px) rotate(-90deg);
+        border-radius: 24% 76% 35% 65% / 27% 36% 64% 73%;
+
+    }to{
+        transform: translate(-100px,-400px) rotate(-10deg);
+        border-radius: 76% 24% 33% 67% / 68% 55% 45% 32% ;
+
+    }
 }

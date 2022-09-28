@@ -1,7 +1,11 @@
 .model{
     height: 2000px;
     width: 900px;
-    background-color:transparent;
-    background-color: black;
+    background-color: transparent;
     margin-top: 200px;
+    /* background-image: url("https://steamuserimages-a.akamaihd.net/ugc/951857668148675039/DEE6B85887DB25E1C531CC813CE37D2231936DD8/?imw=116&imh=65&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true");
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    position: relative;
+    z-index: -1000;
 }

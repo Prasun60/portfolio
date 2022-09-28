@@ -8,7 +8,7 @@ import { Camera } from 'three'
 function Robot() {
   return (
     <div className='model'>
-  <Canvas  fov={75} camera={{ position: [0, 0, 9] }} >
+  <Canvas  fov={75} camera={{ position: [0, 2, 9] }} >
       {/* <PerspectiveCamera position={[500,500,600]} /> */}
       <OrbitControls enablePan={true} enableZoom={true} enableRotate={true} />
       <directionalLight intensity={1} />

@@ -1,3 +1,4 @@
+import zIndex from '@mui/material/styles/zIndex';
 import React from 'react'
 import StarfieldAnimation from "react-starfield-animation";
 function ret(load) {
@@ -7,7 +8,8 @@ function ret(load) {
                 style={{
                     position: "absolute",
                     width: "100%",
-                    height: "100%"
+                    height: "100%",
+                    zIndex:"500"
                 }}
                 numParticles={800}
                 particleSpeed={0}
@@ -22,7 +24,8 @@ function ret(load) {
                     position: "relative",
                     bottom: "-784px",
                     width: "100%",
-                    height: "100p%"
+                    height: "100p%",
+                    zIndex:"1000"
                 }}
                 numParticles={800}
                 particleSpeed={0}

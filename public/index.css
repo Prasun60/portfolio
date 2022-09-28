@@ -1,0 +1,10 @@
+.cover{
+    position: absolute;
+    margin-top: -100px;
+    height: 4810px;
+    width: 100%;
+    z-index: -200;
+    background-image: url("./assets/images/Starfield_slow.gif");
+    background-repeat: repeat;
+    background-size: 100%;
+  }
