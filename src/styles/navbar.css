@@ -17,6 +17,7 @@
     width: 500px;
     margin-top: -10px;
     margin-left: 25px;
+    cursor: pointer;
 }
 .nav-heading:hover{
     animation: animate 3s linear infinite;
