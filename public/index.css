@@ -4,7 +4,7 @@
     height: 4810px;
     width: 100%;
     z-index: -200;
-    background-image: url("./assets/images/Star55.gif");
+    background-image:url("./assets/star55.gif"); 
     background-repeat: repeat;
     background-size: 100%;
   }
