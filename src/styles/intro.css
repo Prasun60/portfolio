@@ -190,6 +190,21 @@ h4{
         transform: translate(-10px,-100px) rotate(-10deg);
     }
 }
-/* .djfh{
-    color:#db129f;
-} */
+.glassresume{
+    background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    color: #03bcf4;
+    height: 30px;
+    width: 100px;
+    font-size: 0.8em;
+}
+.glassresume:hover{
+    height: 34px;
+    width: 105px;
+    transition: ease;
+    box-shadow: 0 7px 7px 0 #5bc3e2, 0 -4px 20px 0 #4c84fe;
+}

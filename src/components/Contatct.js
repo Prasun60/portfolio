@@ -18,7 +18,7 @@ function Contatct() {
 
     const notify = () => toast('✅Message Sent', {
         position: "bottom-left",
-        autoClose: 5000,
+        autoClose:  5000,
         hideProgressBar: false,
         closeOnClick: true,
         pauseOnHover: true,

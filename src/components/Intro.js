@@ -23,7 +23,11 @@ function Intro() {
         <div className='blob1'></div>
         <div className='about'><div className='heading'>About Me</div><p>I am an engineering student at ABV-IIITM, pursuing Btech-CSE, CGPA-8.53
           <br></br>I am a Fullstack web-developer and competitive coder,<br></br>Block-Chain Enthusiast,<br></br>Love to dance in my free time
-         </p><div className='blob2'></div>
+         </p><br></br>
+         <a href='Prasun-resume.pdf' download="Prasun-resume.pdf">
+          <button className='glassresume'>Resume</button>
+         </a>
+         <div className='blob2'></div>
         </div>
       </div>
 

@@ -26,7 +26,7 @@ function Projects() {
           icon={<img src="https://img.icons8.com/color/2x/group-of-projects.png" alt="" height="50" width="50" />}
           >
             <h3 className='timelineheadingodd'>Blog Website</h3>
-            <p className='timelinecontent'>An interactive Blog Website made with<br></br> Ejs , Mongodb , Node and express<br></br>which allows users to create and delete blogs... <a href='' target="_blank">Visit Website</a></p>
+            <p className='timelinecontent'>An interactive Blog Website made with<br></br> Ejs , Mongodb , Node and express<br></br>which allows users to create and delete blogs... <a href='https://github.com/Prasun60/Blog-website' target="_blank">Veiw code</a></p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement className='vertical-timeline-element--work'
@@ -46,7 +46,7 @@ function Projects() {
 
           >
             <h3 className='timelineheadingodd'>Mi Clone App</h3>
-            <p className='timelinecontent'>A Ecommerce website Clone website of Xiomi <br></br> made with React and react hooks... <a href='https://mi-clone-wheat.vercel.app/' target="_blank" >Visit Website</a></p>
+            <p className='timelinecontent'>A Ecommerce Clone website of Xiomi <br></br> made with React and react hooks... <a href='https://mi-clone-wheat.vercel.app/' target="_blank" >Visit Website</a></p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
